@@ -21,7 +21,7 @@ First and foremost, unhandled exceptions cause your program to terminate abruptl
 •	Clean up resources like file handles, database connections, and network sockets
 However, exception handling isn't just about catching errors instead it's about building robust software architecture that anticipates failure scenarios and responds appropriately.
 
-Exceptions Types
+#Exceptions Types
 Exceptions are further split into:
 Checked Exceptions
 Must be declared or handled with try-catch. Examples: IOException, SQLException, ClassNotFoundException. The compiler enforces handling, therefore ensuring developers address potential failures at compile time.
